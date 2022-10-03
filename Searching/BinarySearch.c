@@ -4,7 +4,7 @@ int search(int *arr, int n, int no)
 {
 	int beg=0;
 	int end=n-1;
-	int pos=-1;
+	signed int pos=-1;
 	while(beg<=end)
 	{
 		int mid = (beg+end)/2;
